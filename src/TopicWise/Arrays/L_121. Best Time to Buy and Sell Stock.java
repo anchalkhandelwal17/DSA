@@ -1,6 +1,6 @@
 class Solution {
     public int maxProfit(int[] prices) {
-        // TC : O(n), SC : O(1)
+       
 
         int mini = prices[0];
         int maxProfit = 0;

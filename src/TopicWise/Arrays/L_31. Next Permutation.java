@@ -1,7 +1,6 @@
 class Solution {
     public void nextPermutation(int[] nums) {
-        // TC : O(n + n + n)
-        // SC : O(1)
+       
         
         // step 1 : find nums[i] < nums[i+1]
         int idx = -1;

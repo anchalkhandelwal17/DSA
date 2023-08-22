@@ -1,7 +1,5 @@
 class Solution {
     public void rotate(int[][] matrix) {
-        // TC : O(n-1) + O(n/2) + O(n) + O(n/2)
-        // SC : O(1)
 
 // Approach : Simply Transpose the matrix, then reverse each row
 

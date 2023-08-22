@@ -2,8 +2,7 @@ class Solution
 {
      static long inversionCount(long arr[], long N)
     {
-        // TC : O(nlog n)
-        // SC : O(n)
+        
         int len = (int)N;
         long count = mergeSort(arr, 0, len - 1);
         return count;

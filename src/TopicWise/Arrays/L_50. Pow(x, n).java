@@ -1,8 +1,7 @@
 class Solution {
     public double myPow(double x, int n) {
         
-        // TC : O(log n)
-        // SC : O(1)
+      
       double ans = 1.0;
          long nn = n;
         if( nn < 0){

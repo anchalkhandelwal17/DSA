@@ -1,7 +1,7 @@
 class Solution {
     public int findDuplicate(int[] nums) {
         // Approach 1 using extra space(using map)
-        // TC : O(n), SC : O(n)
+        /
         HashMap<Integer,Integer> map = new HashMap<>();
 
         for(int i=0; i<nums.length; i++){

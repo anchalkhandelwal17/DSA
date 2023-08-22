@@ -1,6 +1,6 @@
 class Solution {
     public List<List<Integer>> generate(int numRows) {
-        // TC : O(n^2), SC : O(1)
+        
 
         List<List<Integer>> ans = new ArrayList<>();
 

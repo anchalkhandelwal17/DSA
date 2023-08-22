@@ -1,8 +1,6 @@
 class Solve {
     int[] findTwoElement(int arr[], int n) {
         
-        // TC : O(n)
-        // SC : O(1)
    // Calculating the sum of values of array
         long sumArr = 0;
         

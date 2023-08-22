@@ -1,7 +1,6 @@
 class Solution {
     public void sortColors(int[] nums) {
-        // TC : O(n ^ 2)
-        // SC : O(1)
+        
 
 // Approach 1 : we can use any of the sorting algorithm(bubble sort, selection sort, insertion sort etc) to sort the array.
 

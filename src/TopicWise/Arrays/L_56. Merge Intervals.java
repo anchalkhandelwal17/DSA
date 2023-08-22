@@ -1,7 +1,6 @@
 lass Solution {
     public int[][] merge(int[][] intervals) {
         
-        // TC : O(n log n ) + O(n), SC : O(n)
         
         // First sorting the array
         Arrays.sort(intervals, new Comparator<int[]>(){

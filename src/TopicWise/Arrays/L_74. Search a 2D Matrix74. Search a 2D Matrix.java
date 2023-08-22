@@ -1,12 +1,7 @@
 
-// https://leetcode.com/problems/search-a-2d-matrix/description/
-
-
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         
-        // TC : O(log m*n)
-        // SC : O(1)
         int n = matrix.length;
         int m = matrix[0].length;
         int lo = 0;
